@@ -8,6 +8,7 @@ class Users extends Controller{
 	protected function login(){
 		$viewmodel = new UserModel();
 		$this->returnView($viewmodel->login(), true);
+		//add logic to login user by validating credentials
 	}
 
 	protected function logout(){
