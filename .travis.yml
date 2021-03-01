@@ -37,7 +37,7 @@ script:
   #- phpcs --ignore=app/Http/Controllers/Auth,app/Http/Controllers/Controller.php app/Http/Controllers
   #- phpcs --ignore=app/Http/Controllers/Auth, app/Http/Controllers/Controller.php 
   #- phpcs /classes, /controllers, /models
-  - phpcs ./classes ./controllers ./models
+  #- phpcs ./classes ./controllers ./models
   #- phpcs /controllers
   #- phpcs /models
   #- npm run production
